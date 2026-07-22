@@ -13,4 +13,4 @@ packaging==23.2
 protobuf==4.25.9
 huggingface-hub==0.19.4
 transformers==4.30.0
-tokenizers==0.13.0
+tokenizers>=0.13.2
