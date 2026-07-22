@@ -5,7 +5,7 @@ import os
 import logging
 from typing import List
 from PyPDF2 import PdfReader
-from langchain_core.documents import Document  # Changed this import
+from langchain_core.documents import Document
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

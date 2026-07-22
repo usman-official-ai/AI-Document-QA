@@ -4,7 +4,7 @@ Text splitting module for document chunking
 import logging
 from typing import List
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_core.documents import Document  # Changed this import
+from langchain_core.documents import Document
 
 logger = logging.getLogger(__name__)
 
